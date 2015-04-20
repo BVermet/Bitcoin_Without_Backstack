@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context="be.howest.nmct.ChangeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView android:layout_width="match_parent" android:layout_height="match_parent"
+        android:text="@string/TxtBedragEuro"
+        android:id="@+id/TxtBedragEuro"
+        android:layout_alignParentTop="true"
+        android:paddingLeft="10dp"
+        android:paddingTop="10dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/TxtBedragEuroInvoer"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="28dp"
+        android:text="@string/TxtBedragEuroInvoer"
+        android:layout_alignStart="@+id/btnBitcoin"
+        android:layout_alignEnd="@+id/btnEuro" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnBitcoin"
+        android:id="@+id/btnBitcoin"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/TxtBedragEuroInvoer"
+        android:layout_alignParentStart="true"
+        android:drawableLeft="@android:drawable/arrow_down_float"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnEuro"
+        android:id="@+id/btnEuro"
+        android:layout_alignBottom="@+id/btnBitcoin"
+        android:layout_toEndOf="@+id/btnBitcoin"
+        android:layout_marginStart="49dp"
+        android:drawableLeft="@android:drawable/arrow_up_float"/>
+
+
+    <TextView android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/TxtBedragBitcoin"
+        android:layout_below="@+id/btnBitcoin"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="35dp"
+        android:id="@+id/TxtBedragBitcoin"
+        android:paddingLeft="10dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:ems="10"
+        android:id="@+id/TxtBedragBitcoinInvoer"
+        android:layout_alignTop="@+id/TxtBedragBitcoin"
+        android:layout_marginTop="30dp"
+        android:text="@string/TxtBedragBitcoinInvoer"
+        android:layout_alignStart="@+id/btnBitcoin"
+        android:layout_alignEnd="@+id/btnEuro" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TxtBitcoinKoers"
+        android:id="@+id/TxtBitcoinKoers"
+        android:layout_marginBottom="62dp"
+        android:layout_alignBottom="@+id/TxtBedragBitcoin"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnKoersWijzigen"
+        android:id="@+id/btnKoersWijzigen"
+        android:layout_alignBottom="@+id/TxtBedragBitcoin"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

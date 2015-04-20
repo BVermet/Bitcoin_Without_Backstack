@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false">
+<RelativeLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:layout_weight="2"
+    android:layout_marginTop="10dp">
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="left"
+        android:layout_weight="1"
+        android:gravity="left">
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="@string/TxtBedragEuro"
+            android:id="@+id/TxtBedragEuro"
+            android:layout_alignParentTop="true"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/TxtBedragEuroInvoer"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="28dp"
+            android:text="@string/TxtBedragEuroInvoer"
+/>
+
+
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:layout_marginLeft="230dp">
+
+        <Button
+            android:layout_width="131dp"
+            android:layout_height="wrap_content"
+            android:text="@string/btnEuro"
+            android:layout_gravity="top"
+            android:id="@+id/btnEuro"
+            android:drawableLeft="@android:drawable/arrow_up_float"
+
+            />
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnBitcoin"
+          android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:id="@+id/btnBitcoin"
+            android:layout_below="@id/btnEuro"
+            android:drawableLeft="@android:drawable/arrow_down_float"
+
+
+
+            />
+
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="right"
+
+        android:gravity="right"
+        android:layout_marginTop="10dp">
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/TxtBedragBitcoin"
+
+            android:layout_alignParentStart="true"
+            android:id="@+id/TxtBedragBitcoin"
+            android:paddingLeft="10dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/TxtBedragBitcoinInvoer"
+            android:layout_alignTop="@+id/TxtBedragBitcoin"
+            android:layout_marginTop="30dp"
+            android:text="@string/TxtBedragBitcoinInvoer"
+/>
+        </RelativeLayout>
+</RelativeLayout>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/TxtBitcoinKoers"
+        android:id="@+id/TxtBitcoinKoers"
+
+
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnKoersWijzigen"
+        android:id="@+id/btnKoersWijzigen"
+
+        android:layout_alignParentEnd="false"
+        android:layout_alignParentStart="false"
+        android:layout_alignParentBottom="false"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

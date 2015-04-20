@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bitcoin</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="TxtBedragEuro">Uw bedrag in €:</string>
+    <string name="TxtBedragEuroInvoer">0 euro</string>
+    <string name="btnBitcoin">Naar bitcoin</string>
+    <string name="btnEuro">Naar Euro</string>
+    <string name="TxtBedragBitcoin">Uw bedrag in bitcoin:</string>
+    <string name="TxtBedragBitcoinInvoer">0 bitcoin</string>
+    <string name="TxtBitcoinKoers">1 bitcoin = 100.0</string>
+    <string name="btnKoersWijzigen">Wijzig koers euro = bitcoin</string>
+    <string name="TxtBitcoinLabel">1 Bitcoin = </string>
+    <string name="TxtBitcoinKoersIngave">0.0</string>
+    <string name="EuroTeken">€</string>
+    <string name="btnWijzigen">Wijzigen</string>
+</resources>
